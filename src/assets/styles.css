@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  background-color: gray;
+  box-sizing: border-box;
+}
+.todoInput {
+  width: 100%;
+  border: 1px black solid;
+  height: 5vh;
+  background-color: rgb(235, 235, 235);
+}
+.updateInput {
+  width: 100%;
+  border: 1px black solid;
+  height: 4vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button {
+  display: none;
+}
+.btn:focus {
+  outline-color: white;
+}
